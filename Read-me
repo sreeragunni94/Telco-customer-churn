@@ -1,0 +1,51 @@
+# Predicting Customer Churn in a Telecom Company
+
+## Overview
+This project aims to predict customer churn in a telecom company using machine learning techniques. The dataset used is **WA_Fn-UseC_-Telco-Customer-Churn.csv**, which contains various features related to customer demographics, account details, and service usage.
+
+## Dataset
+The dataset includes the following key columns:
+- **CustomerID**: Unique identifier for each customer.
+- **Gender, SeniorCitizen, Partner, Dependents**: Demographic features.
+- **Tenure, MonthlyCharges, TotalCharges**: Account-related features.
+- **Contract, PaymentMethod, InternetService**: Service-related features.
+- **Churn**: Target variable (Yes/No), indicating whether the customer churned.
+
+## Project Structure
+The Jupyter Notebook follows these main steps:
+1. **Data Loading**: Reads the dataset using `pandas`.
+2. **Exploratory Data Analysis (EDA)**: Visualizes distributions and relationships using `matplotlib` and `seaborn`.
+3. **Data Preprocessing**:
+   - Handling missing values.
+   - Encoding categorical variables.
+   - Feature scaling.
+4. **Model Training**:
+   - Splitting data into training and testing sets.
+   - Training machine learning models (e.g., Logistic Regression, Decision Trees, Random Forest, etc.).
+   - Evaluating model performance using accuracy, precision, recall, and F1-score.
+5. **Results & Interpretation**: Analyzing key insights from the model and feature importance.
+
+## Dependencies
+Make sure you have the following Python libraries installed:
+```bash
+pip install numpy pandas matplotlib seaborn scikit-learn
+```
+
+## Usage
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-repo/customer-churn.git
+   cd customer-churn
+   ```
+2. Open the Jupyter Notebook:
+   ```bash
+   jupyter notebook "Predicting Customer Churn in a Telecom Company.ipynb"
+   ```
+3. Run the notebook cell by cell to follow the analysis and modeling steps.
+
+## Author
+[Sreerag](https://github.com/your-github-profile)
+
+## License
+This project is open-source under the MIT License.
+
